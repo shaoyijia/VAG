@@ -10,7 +10,7 @@ In this work, we study the class-incremental learning (CIL) by taking PLMs' prop
 generation objective can better preserve PLMs' representation ability in the continual learning processing and yielding
 much better CIL results.
 
-<img src="figure/framework_compare.png" alt="model" width="600" />
+<img src="figure/framework_compare.png" alt="model" width="400" />
 
 We further propose the VAG (**V**ocabulary-**A**ware Label
 **G**eneration) system for CIL which reframes CIL as a continual label generation problem.
