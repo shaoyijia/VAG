@@ -1,6 +1,6 @@
 # Class-Incremental Learning based on Label Generation
 
-This repository contains the code for our ACL'23 paper Class-Incremental Learning based on Label Generation
+This repository contains the code for our ACL'23 paper [Class-Incremental Learning based on Label Generation](https://arxiv.org/abs/2306.12619)
 by [Yijia Shao](https://shaoyijia.github.io/), Yiduo Guo, [Dongyan Zhao](https://www.wict.pku.edu.cn/zhaodongyan/en/),
 and [Bing Liu](https://www.cs.uic.edu/~liub/).
 
