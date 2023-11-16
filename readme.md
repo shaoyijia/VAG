@@ -127,8 +127,22 @@ learning. We use their code structure as a reference when developing this code b
 Please cite our paper if you use this code or parts of it:
 
 ```
-@article{shao2023class,
-    title={Class-Incremental Learning based on Label Generation},
-    author={Shao, Yijia and Guo, Yiduo and Zhao, Dongyan and Liu, Bing}
+@inproceedings{shao-etal-2023-class,
+    title = "Class-Incremental Learning based on Label Generation",
+    author = "Shao, Yijia  and
+      Guo, Yiduo  and
+      Zhao, Dongyan  and
+      Liu, Bing",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.109",
+    doi = "10.18653/v1/2023.acl-short.109",
+    pages = "1263--1276",
 }
 ```
