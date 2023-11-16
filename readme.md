@@ -18,11 +18,18 @@ We further propose the VAG (**V**ocabulary-**A**ware Label
 ## Requirements
 
 We developed the code based on python `3.9.0`. The required packages can be found
-in [requirements.txt](requirements.txt). You can run the following command to install them all:
+in [requirements.txt](requirements.txt). You can run the following commands to set up the environment:
 
-```shell
-pip install -r requirements.txt
-```
+1. Create a new conda environment:
+   ```shell
+   conda create -n vag python==3.9
+   conda activate vag
+   ```
+2. Install [Pytorch](https://pytorch.org/get-started/locally/) based on your device version.
+3. Install the required packages:
+   ```shell
+   pip install -r requirements.txt
+   ```
 
 ## Datasets
 
