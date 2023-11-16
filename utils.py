@@ -3,7 +3,6 @@ from typing import Any, NewType, Optional
 
 import numpy as np
 from torch.nn import Module
-from torch.utils.tensorboard import SummaryWriter
 from transformers import BartModel, BartConfig
 
 from networks.bart_retrieve import BartWithLabelRetriever
@@ -76,12 +75,6 @@ def print_optimizer_config(optim):
                 print(n + ':', opt[n], end=', ')
         print()
     return
-
-
-# default `log_dir` is "runs" - we'll be more specific here
-def setup_writer(name):
-    writer = SummaryWriter(name)
-    return writer
 
 
 def log_loss(writer, loss_name='training loss', scalar_value=None, global_step=None):
