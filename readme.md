@@ -102,7 +102,7 @@ You can easily run VAG system on your own dataset with the following steps:
 
 1. Add the data processing code in `get_dataset()` in [data.py](data.py).
 2. Add a file under [./sequences](sequences) to indicate the task sequence. The sequence file name should be the same
-   with your dataset name.
+   with your dataset name. Register the sequence information in `prepare_sequence_finetune()` in [utils.py](utils.py).
 3. Complete the following script and run!
     ```shell
     for ft_task in  $(seq 0 $TASK_CNT-1);
